@@ -20,6 +20,7 @@ func  add(nums ... int ) int { // the three dots before int means that this func
 		fmt.Println(arg)
 	}
 }
+
 func main () {
 	fmt.Println("Hello, World!") // this println  is called variadic function in Go  where you can pass here n number of parameters
 

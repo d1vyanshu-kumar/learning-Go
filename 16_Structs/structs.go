@@ -1,6 +1,7 @@
 package main
 
 import "fmt"
+// coustome data structure
 
 // Structs in Go are a way to group related data together into a single unit. They are similar to classes in other programming languages, but they do not have methods or inheritance. Structs are used to create custom data types that can hold multiple fields of different types.
 
@@ -8,6 +9,8 @@ type Person struct {
 	Name string
 	Age  int
 }
+
+// composition or inheritance  we can use that through structs
 
 func main() {
 	// Creating a new instance of the Person struct
